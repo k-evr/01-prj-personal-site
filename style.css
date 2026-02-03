@@ -230,87 +230,6 @@ nav {
     transform: translateY(-2px);
 }
 
-/* ===== PROJECTS ===== */
-.projects {
-    padding: 5rem 24px;
-    background: #fff;
-}
-
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2.2rem;
-    max-width: 1050px;
-    margin: 0 auto;
-}
-
-.project-card {
-    border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 4px 18px rgba(0,0,0,0.08);
-    background: #fff;
-    transition: transform 0.3s, box-shadow 0.3s;
-}
-
-.project-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(0,0,0,0.14);
-}
-
-.project-image {
-    height: 190px;
-    background: linear-gradient(135deg, #c8d6e5, #a8bdd0);
-}
-
-/* When you have screenshots, replace each card's .project-image gradient with:
-   background: url('project1.jpg') center/cover no-repeat;
-*/
-
-.project-info {
-    padding: 1.6rem;
-}
-
-.project-info h3 {
-    font-size: 1.25rem;
-    color: #1b2d44;
-    margin-bottom: 0.6rem;
-}
-
-.project-info > p {
-    color: #666;
-    font-size: 0.97rem;
-    margin-bottom: 1rem;
-    line-height: 1.6;
-}
-
-.project-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.45rem;
-    margin-bottom: 1.1rem;
-}
-
-.tag {
-    background: #e8f0f8;
-    color: #3d5a7f;
-    padding: 0.28rem 0.75rem;
-    border-radius: 14px;
-    font-size: 0.82rem;
-    font-weight: 500;
-}
-
-.project-link {
-    color: #3d5a7f;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 0.95rem;
-    transition: color 0.25s;
-}
-
-.project-link:hover {
-    color: #1b2d44;
-}
-
 /* ===== CONTACT ===== */
 .contact {
     padding: 5rem 24px;
@@ -391,9 +310,6 @@ footer {
         flex: none;
         width: 100%;
         height: 220px;
-    }
-    .projects-grid {
-        grid-template-columns: 1fr;
     }
     .contact-cards {
         flex-direction: column;
