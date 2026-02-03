@@ -58,7 +58,7 @@ nav {
 /* ===== HERO ===== */
 .hero {
     margin-top: 50px;
-    min-height: 420px;
+    min-height: 280px;
     background: linear-gradient(135deg, #1b2d44 0%, #2a4a6b 45%, #1e3a5f 100%);
     position: relative;
     overflow: hidden;
@@ -67,7 +67,7 @@ nav {
     justify-content: center;
     text-align: center;
     color: #fff;
-    padding: 80px 24px 70px;
+    padding: 60px 24px 55px;
 }
 
 /* Subtle geometric overlay on the hero */
@@ -89,28 +89,7 @@ nav {
     z-index: 1;
 }
 
-.profile-photo {
-    width: 140px;
-    height: 140px;
-    border-radius: 50%;
-    margin: 0 auto 1.8rem;
-    border: 4px solid rgba(255,255,255,0.25);
-    overflow: hidden;
-    background: #3a5a7c;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.profile-photo svg {
-    width: 80px;
-    height: 80px;
-    fill: rgba(255,255,255,0.4);
-}
-
-/* When you add your photo, replace the SVG in the HTML with:
-   <img src="your-photo.jpg" alt="Your Name" style="width:100%;height:100%;object-fit:cover;">
-*/
 
 .hero-content h1 {
     font-size: 2.9rem;
